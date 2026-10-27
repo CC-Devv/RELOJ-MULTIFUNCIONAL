@@ -1,0 +1,84 @@
+.boton-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 45px;
+}
+
+.boton {
+    font-family: "Patrick Hand", cursive;
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    border-radius: 20px;
+    font-size: x-large;
+    background-color: rgb(255, 166, 221);
+    
+}
+.boton-main{
+    font-family: "Patrick Hand", cursive;
+    font-size: large;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border-color: blue;
+    border-width: 10px;
+}
+
+.centrado {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.true-center {
+    margin-top: 10%;
+    margin-left: 38%;
+}
+
+.true-center2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.fondo {
+    background-color: #d9d9ff;
+}
+
+.titulo{
+  font-family: "Chewy", system-ui;
+  font-size: 20px;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+.texto {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+}
+
+.texto-hora {
+  font-family: "Patrick Hand", cursive;
+  font-size: 100px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.input {
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Patrick Hand", cursive;
+    font-size: x-large;
+}
+
+.back {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    font-size: larger;
+    background-color: rgb(255, 110, 110);
+    position: fixed;
+    left: 2%;
+}

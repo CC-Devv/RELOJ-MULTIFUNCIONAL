@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <!--ARCHIVOS UWU-->
+    <script src="script.js" async defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <!--RECONECCIONES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Patrick+Hand&display=swap" rel="stylesheet">
+</head>
+<body class="fondo">
+    <div class="centrado">
+        <button type="button" class="back" onclick="IR('index')">⬅</button><h1 class="titulo">Cronometro</h1>
+    </div>
+    <br><br><br>
+    <div class="centrado">
+        <p class="texto">Da clik para iniciar el cronometro</p>
+        <button type="button" onclick="CRONOMETRO()" class="boton">Empezar</button>
+        <button type="button" onclick="REFRESH()" class="boton">Reiniciar</button>
+    </div>
+    <br>
+    <div id="divcron" class="centrado">
+    </div>
+</body>
+</html>

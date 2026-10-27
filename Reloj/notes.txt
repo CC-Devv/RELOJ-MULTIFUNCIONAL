@@ -1,0 +1,9 @@
+Que he aprendido de...
+
+Temporizador:
+    La idea era que al tiempo se le restara 1 a cada segundo, por lo que una accion se ejecutaria cada segundo.
+
+    El error:
+    Ponia todas las acciones dentro de la funcion que se repetia acada segundo.
+    La solucion:
+    Seccionar la funcion en funciones y repetir solo la funcion que ejecutaba el cambio de numero
